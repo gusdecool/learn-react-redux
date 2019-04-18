@@ -1,0 +1,43 @@
+{
+  "extends": ["tslint:all", "tslint-react"],
+  "rules": {
+    "ban-ts-ignore": false, // temporary, until we fixed the scss schema late build
+    "completed-docs": false,
+    "file-name-casing": {
+      "options": "pascal-case",
+      "severity": "error"
+    },
+    "no-inferrable-types": false,
+    "no-default-export": false,
+    "no-default-import": false,
+    "jsx-boolean-value": false,
+    "jsx-no-multiline-js": false,
+    "jsx-no-lambda": false,
+    "no-unsafe-any": false, // TODO: temporary until we fix build issue. e.g: https://pipelines.puppet.com/vroomsysadmin/builds/506160
+    "no-submodule-imports": false,
+    "max-line-length": {
+      "severity": "warning",
+      "options": [120]
+    },
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "prefer-function-over-method": false,
+    "trailing-comma": false,
+    "member-ordering": false,
+    "jsx-alignment": false,
+    "quotemark": {
+      "options": [
+        "single",
+        "jsx-double",
+        "avoid-escape"
+      ]
+    },
+    "only-arrow-functions": false,
+    "no-magic-numbers": false,
+    "no-null-keyword": false,
+    "forin": false,
+    "cyclomatic-complexity": false,
+    "prefer-template": false,
+    "no-unnecessary-class": false
+  }
+}
