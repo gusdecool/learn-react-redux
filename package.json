@@ -1,9 +1,9 @@
 {
-  "name": "base-react-typescrpit",
+  "name": "learn-react-redux",
   "version": "1.0.0",
-  "description": "Base code when start project using react & typescript",
+  "description": "Example of me learning react redux",
   "main": "build/widget.js",
-  "repository": "git@github.com:gusdecool/base-react-typescrpit.git",
+  "repository": "git@github.com:gusdecool/learn-react-redux.git",
   "author": "Budi Arsana <gusdecool@gmail.com>",
   "license": "Unlicense",
   "private": true,
