@@ -1,11 +1,6 @@
-# Vroom Reactjs
+# Learn React Redux
 
-Base code when we want to start React project using Typescript
-
-## Why Typescript for React?
-
-1. Typescript config surprisingly easier and simpler to use rather than traditional webpack + babel + flow
-2. Typescript offer more features than flow and if we start new project and want typehint, using Typescript is more reasonable 
+This repo contains the minimum code required to setup React Redux 
 
 ## How to install
 
