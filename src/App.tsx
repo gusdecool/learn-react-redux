@@ -8,7 +8,7 @@ export default class App extends React.Component<{}> {
     public render(): React.ReactElement<HTMLDivElement> {
         return (
             <Provider store={ReduxStore}>
-                <ShowName/>
+                <ShowName level="newbie"/>
             </Provider>
         );
     }

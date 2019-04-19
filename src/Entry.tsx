@@ -25,7 +25,7 @@ class Entry {
         }
 
         this.element = element;
-        this.observer = new MutationObserver(() => {});
+        this.observer = new MutationObserver(this.render);
     }
 
     public render(): void {

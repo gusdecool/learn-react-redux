@@ -8,7 +8,7 @@ const combinedReducer: Reducer = combineReducers(
     }
 );
 
-export interface IState {
+export interface IAppState {
     userReducer: IUserState | null;
 }
 
