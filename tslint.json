@@ -35,6 +35,7 @@
     "only-arrow-functions": false,
     "no-magic-numbers": false,
     "no-null-keyword": false,
+    "no-console": false,
     "forin": false,
     "cyclomatic-complexity": false,
     "prefer-template": false,

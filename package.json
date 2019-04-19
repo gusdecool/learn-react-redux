@@ -38,8 +38,10 @@
   "dependencies": {
     "@types/react": "^16.8.13",
     "@types/react-dom": "^16.8.4",
+    "redux-devtools-extension": "^2.13.8",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "redux": "^4.0.1"
   },
   "peerDependencies": {
     "@types/react": "^16.8.13",
