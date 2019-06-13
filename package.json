@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",
-    "browser-sync": "^2.18.12",
+    "browser-sync": "^2.26.7",
     "browser-sync-webpack-plugin": "^2.2.2",
     "css-loader": "^1.0.0",
     "eslint": "^4.0.0",
